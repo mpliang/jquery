@@ -12,15 +12,23 @@ body {
   background-color: black;
   height: 100px;
   width: 100px;
-  border: 1px solid white;
+  margin: 1px;
+  float: left;
+  cursor: pointer;
+}
+
+.squareWrong {
+  background-color: red;
+  height: 100px;
+  width: 100px;
   margin: 1px;
   float: left;
 }
 
-.square wrong {
-  background-color: red;
-}
-
-.square right {
+.squareRight {
   background-color: green;
+  height: 100px;
+  width: 100px;
+  margin: 1px;
+  float: left;
 }
